@@ -1,0 +1,70 @@
+#main{
+    display: block;
+    background-color: #FFFBE2;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
+    border:2px solid #4c123d;
+}
+#image{
+    display: block;
+    margin : auto;
+    max-width:80%;
+    height: auto;
+  }
+#img-div{
+      background-color: #FFFBE2;
+      padding: 20px;
+  }
+#img-caption{
+    text-align: center;
+    margin-top: 1em;
+}
+.center-text{
+    text-align: center;
+}
+#title{
+    font-size: 40px;
+    display : block;
+    color:#a6493f;
+}
+#moniker{
+    font-size: 15px;
+    color: #4c123d;
+}
+h2{
+    display: block;
+    font-weight: bold;
+    color:#4c123d;
+}
+#tribute-info{
+    border:2px solid #4c123d;
+    max-width: 80%;
+    display:block;
+    margin:auto;
+}
+.summary{
+        border: 1px solid #a2a9b1;
+        border-spacing: 3px;
+        background-color: #f8f9fa;
+        color: black;
+        margin: 0.5em 0 0.5em 1em;
+        padding: 0.2em;
+        float: right;
+        clear: right;
+        font-size: 88%;
+        line-height: 1.5em;
+        width: 22em;
+}
+li{
+    list-style: '✧ ';
+}
+footer{
+    padding: 5px;
+    color:#f0f9ff;
+    background-color:#4c123d;
+    margin-top : 10px;
+}
+#fcc{
+    margin-top: 10px;
+    align-content: center;
+    transform: scale(0.6);
+}
