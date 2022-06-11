@@ -5,9 +5,10 @@
     border:2px solid #4c123d;
 }
 #image{
+    position: inherit;
     display: block;
     margin : auto;
-    max-width:80%;
+    max-width:100%;
     height: auto;
   }
 #img-div{
@@ -27,44 +28,59 @@
     color:#a6493f;
 }
 #moniker{
+    margin-top: -15px;
     font-size: 15px;
     color: #4c123d;
 }
 h2{
     display: block;
     font-weight: bold;
-    color:#4c123d;
+    color:white;
+    background-color: #4c123d;
 }
 #tribute-info{
     border:2px solid #4c123d;
-    max-width: 80%;
-    display:block;
-    margin:auto;
+    max-width: 500px;
+    display: block;
+    margin-left: 10px;
 }
-.summary{
-        border: 1px solid #a2a9b1;
-        border-spacing: 3px;
-        background-color: #f8f9fa;
-        color: black;
-        margin: 0.5em 0 0.5em 1em;
-        padding: 0.2em;
-        float: right;
-        clear: right;
-        font-size: 88%;
-        line-height: 1.5em;
-        width: 22em;
+ul {
+    list-style: none; 
+  }
+ul li::before {
+    content: "➼ ";
+    color: #4c123d; 
+    margin-left: -1em;
 }
-li{
-    list-style: '✧ ';
+#identity-card{
+    border: solid #4c123d;
+    color: white;
+    float: right;
+    margin-right: 10px;
+    clear: right;
+    width: 40%;
+}
+#identiy-pic{
+    position: inherit;
+    display: block;
+    margin : auto;
+    max-width:60%;
+    height: auto;
 }
 footer{
-    padding: 5px;
+    padding: 15px;
     color:#f0f9ff;
     background-color:#4c123d;
     margin-top : 10px;
+    text-align: center;   
+    clear: left;
 }
-#fcc{
-    margin-top: 10px;
-    align-content: center;
-    transform: scale(0.6);
+#credited{
+    font-family: "Roboto Mono";
+    font-size: 18px;
+    font-weight: lighter;
+}
+#github{
+    font-size: 18px;
+    color: white;
 }
