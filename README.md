@@ -1,2 +1,2 @@
-# Responsive-Web-Design-FCC
+# FCC PROJECTS
 freeCodeCamp projects to finish course
