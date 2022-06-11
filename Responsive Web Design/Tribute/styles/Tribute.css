@@ -3,7 +3,7 @@
     background-color: #FFFBE2;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
     border:2px solid #4c123d;
-    overflow: hidden;
+    width: auto;
 }
 #image{
     position: inherit;
@@ -39,15 +39,13 @@ h2{
     color:white;
     background-color: #4c123d;
 }
-div{
-    margin: 15px;
-}
 #tribute-info{
     border:2px solid #4c123d;
-    max-width: 40%;
+    max-width: 50%;
     height: auto;
-    float: left;
     margin-left: 10px;
+    display: inline-block;
+    position: inherit;
 }
 ul {
     list-style: none; 
@@ -62,10 +60,16 @@ ul li::before {
     float: right;
     max-width: 40%;
     height: auto;
+    margin-left: 10px;
     margin-right: 10px;
     margin-bottom: 10px;
 }
-
+#identiy-pic{
+    display: block;
+    margin : auto;
+    max-width: 80%;
+    height: auto;
+}
 blockquote p {
     padding: 15px;
     background: #eee;
@@ -78,22 +82,19 @@ blockquote p::before {
 blockquote p::after {
     content: '\201D';
 }
-
-#identiy-pic{
-    display: block;
-    margin : auto;
-    max-width:400px;
-    height: auto;
+section{
+    margin-bottom: 10px;
 }
+
 footer{
     padding: 15px;
     color:#f0f9ff;
     background-color:#4c123d;
     margin-top : 10px;
-    text-align: center;   
+    text-align: center;  
     clear: both;
 }
-#credited{
+footer span{
     font-family: "Roboto Mono";
     font-size: 18px;
     font-weight: lighter;
